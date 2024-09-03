@@ -1,0 +1,1303 @@
+*{margin: 0; 
+    padding: 0;
+    box-sizing: border-box;}
+body{
+    font-family:'Big Shoulders Text', Arial, sans-serif;
+    }
+/*header start*/
+#home{
+    background:url(slider-02.jpg) no-repeat center center  ;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position:relative;
+    z-index: 99;
+}
+header .overlay{
+    background-color: rgba(0, 0, 0, 0.808);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+nav{
+position: sticky;
+z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+nav p a{
+    text-decoration: none;
+    font-size: 35px;
+    color:rgb(130, 107, 182) ;
+}
+nav p::first-letter{
+font-size: 50px;
+color: white;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-top: 15px;
+}
+nav ul li a{color: white;
+    text-decoration: none;
+    font-size: 17.5px;
+    margin: 13px;
+}
+nav ul li a:hover{
+    color: rgb(135, 109, 197);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.home{
+    color: rgb(129, 102, 194);
+}
+.head {position:relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    padding-top: 150px;
+    line-height: 70px;
+}
+.head p{
+    color: white;
+    font-size: 20px;
+}
+.head h1{
+    font-size: 60px;
+    color:rgb(112, 83, 180) ;
+} 
+/*header end*/
+#hello{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 25px;
+    padding: 90px 100px;
+    gap: 40px;
+}
+#hello img{
+    width: 300px;
+    border-top: 8px solid rgba(78, 74, 74, 0.856);
+    border-left: 8px solid rgba(78, 74, 74, 0.856);
+    border-radius: 80px;
+    padding: 20px 0px 25px 0px;
+    margin-bottom: 50px;
+}
+.text h1{
+    font-size: 27px;
+    letter-spacing: 2PX;
+    padding-left: 10px;
+    border-left: 5PX solid rgb(125, 86, 214) ;
+    border-radius: 1px;
+    font-weight: 600;
+    color: rgba(32, 25, 25, 0.836);
+}
+.text p{
+    font-size: 16px;
+    color: rgba(100, 95, 95, 0.993);
+}
+.text hr{
+    border:1px dashed rgba(100, 95, 95, 0.637) ;
+}
+.text ul  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5px;
+    line-height: 40px;
+}
+.text ul li{
+    display:flex;
+    gap: 5px;
+}
+.text ul li h2{
+    font-size: 16px;
+    color: rgba(32, 25, 25, 0.836);
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: -70px;
+}
+.cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 20px;
+    color: white;
+    background:rgb(125, 86, 214) ;
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #521a80be;
+    letter-spacing: 0.05em;
+    border-radius: 10em;
+    width: 190px;
+}
+button {
+text-align: center;
+}
+.cssbuttons-io-button svg {
+    margin-right: 10px;
+}
+.cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #212124e5;
+    background: rgba(39, 37, 37, 0.87);
+}
+.cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #4d36d0;
+    transform: scale(0.99);
+}
+#btn {
+    padding-left: 37px;
+}
+/*Our Services*/
+#Services , #Portfolio , #Client , #blog ,#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 40px;
+}
+#Services h1, #Portfolio h1 , #Client h1 , #blog h1 , #contact h1{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgba(32, 25, 25, 0.897);
+    padding-bottom: 70px;
+    text-decoration: underline rgb(89, 8, 143) 1px;
+    text-underline-offset:30px;
+}
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    line-height: 25px;
+    gap: 20px;
+}
+.info h2 , .contain h2 ,#Client h2  {
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: rgba(32, 25, 25, 0.836);
+}
+.info p , .contain p ,#Client p , .rom i {
+    font-size: 16px;
+    color:  rgba(100, 95, 95, 0.993);
+}
+#Client p{
+    font-size: 16px;
+    color: rgba(100, 95, 95, 0.993);
+    width: 300px;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.info i , .info span , .contain i , .contain span{
+    padding-bottom: 30px;
+    color: rgb(97, 55, 196);
+}
+.info i:hover , .info span:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: all .40s ease-in-out;
+}
+.contain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    line-height: 25px;
+    gap: 100px;
+}
+section .ul ul{
+    display: flex;
+    list-style: none;
+}
+section .ul ul li{
+    margin:15px ;
+    padding-bottom: 50px;
+}
+section  .ul ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(39, 38, 38, 0.904);
+}
+section .ul ul li a:focus{
+    color:rgb(125, 86, 214) ;
+    cursor: pointer;
+}
+.image img{
+    width:280px;
+    height: 200px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 99;
+}
+.image img:hover {
+    opacity: .55; 
+    transition:all 0.5s ease;
+    cursor: pointer;
+}
+.img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 40px;
+    gap: 70px;
+}
+.rom{
+    display: flex ;
+    justify-content: space-evenly;
+    border-top: 8px solid rgb(125, 86, 214);
+    border-left: 8px solid rgb(125, 86, 214);
+    border-radius: 80px;
+    padding: 30px 8px;
+    line-height: 25px;
+}
+.rom img{
+width: 100px;
+height: 100px;
+margin-right: 2px;
+border-left: 3px solid rgb(125, 86, 214);
+border-top: 3px solid rgb(125, 86, 214);
+border-radius: 20px;
+}
+.rom span , .rom svg {
+    color: rgb(209, 196, 73);
+    font-size: 24px;
+}
+.end{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    line-height: 25px;
+    gap: 10px;
+    padding-left: 20px;
+}
+.end img{
+    width: 300px;
+    height: 154px
+}
+.end h2 a {
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: rgba(32, 25, 25, 0.836);
+    text-decoration: none;  
+} 
+.end p{
+    font-size: 16px ;
+    color:  rgba(100, 95, 95, 0.993);
+padding-top: 20px;
+padding-bottom: 10px;
+width: 300px;
+}
+.end h2 a:hover{
+    color: rgba(105, 39, 180, 0.932);
+    transition: all .1s ease-in-out;
+cursor: pointer;
+}
+.end a{
+    color:  rgba(46, 44, 44, 0.993);
+text-decoration: none;
+}
+.end a:hover{
+    color: rgb(132, 58, 216);
+    transition: all 0.1s ease-in-out;
+cursor: pointer;
+}
+/*inpt star*/
+.input-one , .input-two{
+    position: relative;
+    margin-bottom: 20px;
+}
+.input {
+    border: solid 1.5px #756f6f91;
+    border-radius: 1rem;
+    font-size: 15px;
+    padding: 1rem;
+    color: #332f2f;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+    width: 550px;
+}
+.input-two .input{
+    height: 100px;
+    padding-bottom: 65px;
+}
+.user-label {
+    position: absolute;
+    left: 10px;
+    color: #e8e8e8;
+    font-size: 20px;
+    pointer-events: none;
+}
+.input:focus, input:valid {
+    outline: none;
+    border: 1.5px solid rgb(125, 86, 214);
+}
+.input:focus ~ label, input:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #e9e1ec;
+    padding: 0 .2em;
+    color: rgb(125, 86, 214);
+}
+.button button{
+    margin-left: 160px;
+    width: 200px;
+    height: 48px;
+    border: solid 1.5px #756f6f91;
+    border-radius: 1rem;
+    font-size: 15px;
+    color: #e9dbdb;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+    background: rgb(125, 86, 214);
+}
+.button button:hover{
+background: #6e6c70e5;
+}
+.button button:active {
+    box-shadow: 0 0.3em 1em -0.5em rgb(125, 86, 214);
+    transform: scale(0.95);
+}
+/*input end*/
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(107, 105, 105);
+    height: 160px;
+    width: 100%;
+    line-height: 50px;
+    color: #e8e8e8;
+}
+.icons a , .by a {
+    text-decoration: none;
+}
+.icons a i{
+    margin: 10px;
+    color: #e8e8e8;
+    font-size: 20px;
+}
+.icons a i:hover {
+    color: rgb(104, 73, 175);
+    transition: all 0.25s ease-in-out;
+}
+.by a:hover{
+    border-bottom: 1px solid rgb(85, 50, 167) ;
+}
+.by a:focus{
+    color:rgb(125, 86, 214) ;
+}
+@media (min-width:200px) and (max-width:344px) {
+    #home{
+        background:url(slider-02.jpg) no-repeat center center  ;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 20px;
+    }
+    nav p a{
+        font-size: 15px;
+    }
+    nav p::first-letter{
+    font-size: 20px;
+    }
+    nav ul {
+        padding-top: 15px;
+    }
+    nav ul li a{
+        font-size: 12px;
+        margin: 3px;
+    }
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 170px;
+        line-height: 40px;
+    }
+    .head p{
+        font-size: 15px;
+    }
+    .head h1{
+        font-size: 30px;
+        font-weight: 800;
+    } 
+    /*header*/
+    #hello{
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+        padding: 90px 20px;
+    }
+    #hello img{
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .text h1{
+        font-size: 23px;
+        letter-spacing: 2PX;
+        padding-left: 10px;
+        border-left: 4PX solid rgb(125, 86, 214) ;
+        border-radius: 1px;
+        font-weight: 600;
+    }
+    .text p{
+        font-size: 13px;
+    }
+    .text ul  {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        line-height: 40px;
+    }
+    .text ul li{
+        gap: 5px;
+    }
+    .text ul li h2{
+        font-size: 14px;
+    }
+    .btn{
+        display: flex;
+        margin-top: 30px;
+        margin-left: -55px;
+    }
+    .cssbuttons-io-button {
+        font-weight: 500;
+        font-size: 12px;
+        padding: 10px 5px;
+        width: 120px;
+        margin: -20px;
+    }
+    .cssbuttons-io-button svg {
+        margin-right: 5px;
+    }
+    #btn {
+        padding-left: 12px;
+    }
+    /*Our Services*/
+    #Services , #Portfolio , #Client , #blog ,#contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 40px;
+    }
+    #Services h1, #Portfolio h1 , #Client h1 , #blog h1 , #contact h1{
+        font-size: 25px;
+    }
+    .info {
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 25px;
+        gap: 20px;
+    }
+    .info h2 , .contain h2 ,#Client h2  {
+        font-size: 17px;
+    }
+    #Client p{
+        font-size: 16px;
+        color: rgba(100, 95, 95, 0.993);
+        width: 300px;
+        font-style: italic;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .contain{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 25px;
+        gap: 100px;
+    }
+    section .ul ul li{
+        margin:5px ;
+    }
+    section  .ul ul li a{
+        font-size: 12px;
+    }
+    .image img{
+        width:280px;
+        height: 200px;
+        margin-left: 25px;
+        margin-bottom: 100px;
+        position: relative;
+        z-index: 99;
+    }
+    .image img:hover {
+        opacity: .55; 
+        transition:all 0.5s ease;
+        cursor: pointer;
+    }
+    .img{
+        display:flex;
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .rom{
+        display: flex ;
+    flex-direction: column;
+        line-height: 25px;
+    }
+    .end{
+        display:flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .end p{
+        font-size: 15px ;
+    width: 300px;
+    }
+.end  a{
+    font-size: 13px;
+}
+/*inpt star*/
+.input {
+    width: 330px;
+    margin-left: 20px;
+}
+.button button{
+    margin-left: 80px;
+    width: 180px;
+}
+/*input end*/
+.icons a i{
+    font-size: 20px;
+    margin: 5px;
+}
+.by span , .by a{
+    font-size: 13px;
+}
+}
+@media (min-width:345px) and (max-width:384px) {
+    #home{
+        background:url(slider-02.jpg) no-repeat center center  ;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 20px;
+    }
+    nav p a{
+        font-size: 15px;
+    }
+    nav p::first-letter{
+    font-size: 20px;
+    }
+    nav ul {
+        padding-top: 15px;
+    }
+    nav ul li a{
+        font-size: 12px;
+        margin: 3px;
+    }
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 170px;
+        line-height: 40px;
+    }
+    .head p{
+        font-size: 15px;
+    }
+    .head h1{
+        font-size: 30px;
+        font-weight: 800;
+    } 
+    /*header*/
+    #hello{
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+        padding: 90px 20px;
+    }
+    #hello img{
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .text h1{
+        font-size: 23px;
+        letter-spacing: 2PX;
+        padding-left: 10px;
+        border-left: 4PX solid rgb(125, 86, 214) ;
+        border-radius: 1px;
+        font-weight: 600;
+    }
+    .text p{
+        font-size: 13px;
+    }
+    .text ul  {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        line-height: 40px;
+    }
+    .text ul li{
+        gap: 5px;
+    }
+    .text ul li h2{
+        font-size: 14px;
+    }
+    .btn{
+        display: flex;
+        margin-top: 30px;
+        margin-left: -55px;
+    }
+    .cssbuttons-io-button {
+        font-weight: 500;
+        font-size: 12px;
+        padding: 10px 5px;
+        width: 120px;
+        margin: -20px;
+    }
+    .cssbuttons-io-button svg {
+        margin-right: 5px;
+    }
+    #btn {
+        padding-left: 12px;
+    }
+    /*Our Services*/
+    #Services , #Portfolio , #Client , #blog ,#contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 40px;
+    }
+    #Services h1, #Portfolio h1 , #Client h1 , #blog h1 , #contact h1{
+        font-size: 25px;
+    }
+    .info {
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 25px;
+        gap: 20px;
+    }
+    .info h2 , .contain h2 ,#Client h2  {
+        font-size: 17px;
+    }
+    #Client p{
+        font-size: 16px;
+        color: rgba(100, 95, 95, 0.993);
+        width: 300px;
+        font-style: italic;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .contain{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 25px;
+        gap: 100px;
+    }
+    section .ul ul li{
+        margin:5px ;
+    }
+    section  .ul ul li a{
+        font-size: 12px;
+    }
+    .image img{
+        width:280px;
+        height: 200px;
+        margin-left: 25px;
+        margin-bottom: 100px;
+        position: relative;
+        z-index: 99;
+    }
+    .image img:hover {
+        opacity: .55; 
+        transition:all 0.5s ease;
+        cursor: pointer;
+    }
+    .img{
+        display:flex;
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .rom{
+        display: flex ;
+    flex-direction: column;
+        line-height: 25px;
+    }
+    .end{
+        display:flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .end p{
+        font-size: 15px ;
+    width: 300px;
+    }
+.end  a{
+    font-size: 13px;
+}
+/*inpt star*/
+.input {
+    width: 330px;
+    margin-left: 20px;
+}
+.button button{
+    margin-left: 80px;
+    width: 180px;
+}
+/*input end*/
+.icons a i{
+    font-size: 20px;
+    margin: 5px;
+}
+.by span , .by a{
+    font-size: 13px;
+}
+}
+@media (min-width:385px) and (max-width:500px) {
+    #home{
+        background:url(slider-02.jpg) no-repeat center center  ;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 20px;
+    }
+    nav p a{
+        font-size: 15px;
+    }
+    nav p::first-letter{
+    font-size: 20px;
+    }
+    nav ul {
+        padding-top: 15px;
+    }
+    nav ul li a{
+        font-size: 12px;
+        margin: 5px;
+    }
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 180px;
+        line-height: 40px;
+    }
+    .head p{
+        font-size: 15px;
+    }
+    .head h1{
+        font-size: 30px;
+        font-weight: 800;
+    } 
+    /*header*/
+    #hello{
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+        padding: 90px 20px;
+    }
+    #hello img{
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .text h1{
+        font-size: 23px;
+        letter-spacing: 2PX;
+        padding-left: 10px;
+        border-left: 4PX solid rgb(125, 86, 214) ;
+        border-radius: 1px;
+        font-weight: 600;
+    }
+    .text p{
+        font-size: 13px;
+    }
+    .text ul  {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        line-height: 40px;
+    }
+    .text ul li{
+        gap: 5px;
+    }
+    .text ul li h2{
+        font-size: 14px;
+    }
+    .btn{
+        display: flex;
+        margin-top: 30px;
+        margin-left: -55px;
+    }
+    .cssbuttons-io-button {
+        font-weight: 500;
+        font-size: 12px;
+        padding: 10px 5px;
+        width: 120px;
+        margin: -20px;
+    }
+    .cssbuttons-io-button svg {
+        margin-right: 5px;
+    }
+    #btn {
+        padding-left: 12px;
+    }
+    /*Our Services*/
+    #Services , #Portfolio , #Client , #blog ,#contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 40px;
+    }
+    #Services h1, #Portfolio h1 , #Client h1 , #blog h1 , #contact h1{
+        font-size: 25px;
+    }
+    .info {
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 25px;
+        gap: 20px;
+    }
+    .info h2 , .contain h2 ,#Client h2  {
+        font-size: 17px;
+    }
+    #Client p{
+        font-size: 16px;
+        color: rgba(100, 95, 95, 0.993);
+        width: 300px;
+        font-style: italic;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .contain{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 25px;
+        gap: 100px;
+    }
+    section .ul ul li{
+        margin:5px ;
+    }
+    section  .ul ul li a{
+        font-size: 12px;
+    }
+    .image img{
+        width:280px;
+        height: 200px;
+        margin-left: 25px;
+        margin-bottom: 100px;
+        position: relative;
+        z-index: 99;
+    }
+    .image img:hover {
+        opacity: .55; 
+        transition:all 0.5s ease;
+        cursor: pointer;
+    }
+    .img{
+        display:flex;
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .rom{
+        display: flex ;
+    flex-direction: column;
+        line-height: 25px;
+    }
+    .end{
+        display:flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .end p{
+        font-size: 15px ;
+    width: 300px;
+    }
+.end  a{
+    font-size: 13px;
+}
+/*inpt star*/
+.input {
+    width: 330px;
+    margin-left: 20px;
+}
+.button button{
+    margin-left: 80px;
+    width: 180px;
+}
+/*input end*/
+.icons a i{
+    font-size: 20px;
+    margin: 5px;
+}
+.by span , .by a{
+    font-size: 13px;
+}
+}
+@media (min-width:501px) and (max-width:600px) {
+    #home{
+        background:url(slider-02.jpg) no-repeat center center  ;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px;
+    }
+    nav p a{
+        font-size: 20px;
+    }
+    nav p::first-letter{
+    font-size: 25px;
+    }
+    nav ul {
+        padding-top: 15px;
+    }
+    nav ul li a{
+        font-size: 13px;
+        margin: 5px;
+    }
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 190px;
+        line-height: 40px;
+    }
+    .head p{
+        font-size: 15px;
+    }
+    .head h1{
+        font-size: 30px;
+        font-weight: 800;
+    } 
+    /*header*/
+    #hello{
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+        padding: 90px 40px;
+    }
+    #hello img{
+        width: 380px;
+        margin-bottom: 50px;
+    }
+    .text h1{
+        font-size: 25px;
+        letter-spacing: 2PX;
+        padding-left: 10px;
+        border-left: 4PX solid rgb(125, 86, 214) ;
+        border-radius: 1px;
+        font-weight: 600;
+    }
+    .text p{
+        font-size: 18px;
+    }
+    .text ul  {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        line-height: 40px;
+    }
+    .text ul li{
+        gap: 5px;
+    }
+    .text ul li h2{
+        font-size: 19px;
+    }
+    /*Our Services*/
+    #Services , #Portfolio , #Client , #blog ,#contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 40px;
+    }
+    #Services h1, #Portfolio h1 , #Client h1 , #blog h1 , #contact h1{
+        font-size: 25px;
+    }
+    .info {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        line-height: 25px;
+        gap: 20px;
+    }
+    .info h2 , .contain h2 ,#Client h2  {
+        font-size: 17px;
+    }
+    #Client p{
+        font-size: 16px;
+        width: 300px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .contain{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        line-height: 25px;
+        gap: 100px;
+    }
+    .image{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        margin-left: -50px;
+    }
+    section .ul ul li{
+        margin:10px ;
+    }
+    section  .ul ul li a{
+        font-size: 17px;
+    }
+    .image img{
+        width:220px;
+        height: 180px;
+        margin-bottom: 100px;
+    }
+    .img{
+        display:flex;
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .rom{
+        display: flex ;
+        justify-content: space-around;
+        align-items: center;
+        line-height: 25px;
+        padding: 30px 10px;
+    }
+    .rom img{
+        margin-top: -150px;
+    }
+    .end{
+        display:flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px 40px;
+    }
+    .end p{
+        font-size: 18px ;
+    width: 400px;
+    }
+.end  a{
+    font-size: 15px;
+}
+.end img , .end iframe{
+width: 450px;
+    height: 260px
+}
+/*inpt star*/
+.input {
+    width: 400px;
+    margin-left: 20px;
+}
+.button button{
+    margin-left: 130px;
+    width: 180px;
+}
+/*input end*/
+.icons a i{
+    font-size: 23px;
+    margin: 5px;
+}
+.by span , .by a{
+    font-size: 17px;
+}
+}
+@media (min-width:601px) and (max-width:900px) {
+    nav{
+        padding: 20px 40px;
+    }
+    nav p a{
+        font-size: 25px;
+    }
+    nav p::first-letter{
+    font-size: 30px;
+    }
+    nav ul {
+        padding-top: 15px;
+    }
+    nav ul li a{
+        font-size: 17px;
+        margin: 7px;
+    }
+    #hello{
+        padding: 90px 30px;
+    }
+    
+    .head {
+        padding-top: 170px;
+        line-height: 60px;
+    }
+    .head p{
+        font-size: 23px;
+    }
+    .head h1{
+        font-size: 40px;
+        font-weight: 800;
+    } 
+    /*Our Services*/
+#Services , #Portfolio , #Client , #blog ,#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 40px;
+}
+#Services h1, #Portfolio h1 , #Client h1 , #blog h1 , #contact h1{
+    font-size: 25px;
+}
+.info {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 25px;
+    gap: 20px;
+}
+.info h2 , .contain h2 ,#Client h2  {
+    font-size: 17px;
+}
+#Client p{
+    font-size: 16px;
+    width: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.image{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-left: -50px;
+}
+section .ul ul li{
+    margin:10px ;
+}
+section  .ul ul li a{
+    font-size: 17px;
+}
+.image img{
+    width:280px;
+    height:220px;
+    margin-bottom: 100px;
+}
+.contain{
+gap: 50px;
+}
+.img{
+    display:flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+.rom{
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 25px;
+    padding: 30px 10px;
+}
+.rom img{
+    margin-top: -150px;
+}
+.end{
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px 40px;
+}
+.end p{
+    font-size: 18px ;
+width: 400px;
+}
+.end  a{
+font-size: 15px;
+}
+.end img , .end iframe{
+width: 490px;
+height: 290px
+}
+}
+@media (min-width:901px) and (max-width:1024px) {
+    .head {
+        padding-top: 170px;
+        line-height: 70px;
+    }
+}
+@media  (min-width:1024px) and (max-width:1199px){
+    .head {
+        padding-top: 100px;
+        line-height: 70px;
+    }
+}
+@media (min-width:1200px) and (max-width:1536px) {
+    #Client p{
+        font-size: 16px;
+        width: 450px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .image{
+        margin-left: 25px;
+    }
+    .image img{
+        width:350px;
+        height:270px;
+        margin-bottom: 100px;
+    }
+    .contain{
+    gap: 150px;
+    }
+    .rom{
+        display: flex ;
+        justify-content: space-around;
+        align-items: center;
+        line-height: 25px;
+        padding: 30px 10px;
+    }
+    .rom img{
+        margin-top: -150px;
+    }
+    .end{
+        gap: 10px;
+        padding: 20px 20px;
+    }
+    .end p{
+        font-size: 20px ;
+    width: 300px;
+    }
+    .end  a{
+    font-size: 18px;
+    }
+    .end img , .end iframe{
+    width:390px;
+    height:280px
+    }
+    }
